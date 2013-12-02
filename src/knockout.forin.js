@@ -13,7 +13,7 @@ define(['knockout'], function(ko) {
     }
 
     return props;
-  };
+  }
 
   ko.virtualElements.allowedBindings.forin = true;
 
