@@ -15,7 +15,7 @@ define(['knockout'], function(ko) {
     return props;
   };
 
-  ko.virtualElements.allowedBindings.each = true;
+  ko.virtualElements.allowedBindings.forin = true;
 
   return {
     init: function(el, value, bindings, model, context) {
